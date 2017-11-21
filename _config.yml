@@ -1,3 +1,2 @@
-markdown: redcarpet
 baseurl: /jekyll-portfolio
 exclude: ['README.md']
