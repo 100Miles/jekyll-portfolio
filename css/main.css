@@ -6,12 +6,6 @@ html {
   font-weight: 400;
 }
 
-/*Carousel CSS*/
-
-
-
-/*End Carousel CSS*/
-
 .logo {
   width: 6rem;
   height: 6rem;
@@ -23,9 +17,11 @@ html {
 
 .carousel {
   height: calc(100vh - 14rem);
-  background-image: url("../images/bg.jpg");
-  background-position: left;
-  background-size: cover;
+  background-color: #212121;
+}
+
+.carousel-controls {
+  width: 100%;
 }
 
 .landing {
@@ -43,7 +39,7 @@ nav a {
   z-index: 1;
   left: 50%;
   top: 50%;
-  transform: translateX(-44%) translateY(-135%);
+  transform: translateX(-44%) translateY(-130%);
 }
 
 .thumbnail {
@@ -130,13 +126,14 @@ footer small {
 @media only screen and (min-width: 60em) {
 
   .title {
-    font-size: 3.6532rem;
+    width: 100%;
+    font-size: 2.5658rem;
     line-height: 3.375rem;
-    letter-spacing: 3rem;
+    letter-spacing: 2rem;
     z-index: 1;
     left: 50%;
     top: 50%;
-    transform: translateX(-44%) translateY(-135%);
+    transform: translateX(-47.5%) translateY(-164%);
   }
 
 }

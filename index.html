@@ -12,11 +12,19 @@ layout: default
     <div class="unit xs-1-3 text-right island-1-2">
       <a href="#about" class="kilo ib">About</a>
     </div>
-    <div class="carousel unit xs-1 text-center relative">
-      <a href="case-study.html">
-        <h2 class="title absolute">BITTER NORTH</h2>
+    <div class="carousel unit xs-1 text-center relative w3-content w3-display-container">
+      <a href="case-study.html" class="bitter-north mySlides">
+        <h2 class="title absolute nina block">BITTER NORTH</h2>
         <img class="img-flex thumbnail absolute" src="{{site.baseurl}}/images/thumbnail-1.png" alt="">
       </a>
+      <a href="case-study.html" class="world-of-maps mySlides">
+        <h2 class="title absolute nina block">WORLD OF MAPS</h2>
+        <img class="img-flex thumbnail absolute" src="{{site.baseurl}}/images/wom-thumbnail.png" alt="">
+      </a>
+    </div>
+    <div class="carousel-controls center pad-t">
+      <button class="w3-button w3-black w3-display-left left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right right" onclick="plusDivs(1)">&#10095;</button>
     </div>
   </nav>
 </section>
@@ -28,3 +36,4 @@ layout: default
     </div>
   </div>
 </section>
+<script src="{{site.baseurl}}/js/index.js" type="text/javascript" charset="utf-8"></script>
