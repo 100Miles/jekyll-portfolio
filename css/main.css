@@ -1,5 +1,4 @@
 html {
-  background-color: #f2f2f2;
   font-family: "proxima-nova",sans-serif;
 
   font-style: normal;
@@ -17,7 +16,7 @@ html {
 
 .carousel {
   height: calc(100vh - 14rem);
-  background-color: #212121;
+  background-color: #f2f2f2;
 }
 
 .carousel-controls {
@@ -98,6 +97,26 @@ footer small {
   color: #f2f2f2;
 }
 
+.btn-left svg {
+  fill: #C1272D;
+  transition: all linear 250ms;
+}
+
+.btn-right svg {
+  fill: #C1272D;
+  transition: all linear 250ms;
+}
+
+.btn-left:hover svg {
+  fill: #9d9d9d;
+  cursor: pointer;
+}
+
+.btn-right:hover svg {
+  fill: #9d9d9d;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 38em) {
 
   .landing .grid {
@@ -119,6 +138,18 @@ footer small {
 
   header .grid {
     padding-top: 3rem;
+  }
+
+  .btn-right {
+    right: 0;
+    top: 50%;
+    transform: translateX(110%) translateY(-600%);
+  }
+
+  .btn-left {
+    left: 0;
+    top: 50%;
+    transform: translateX(-110%) translateY(-600%);
   }
 
 }
