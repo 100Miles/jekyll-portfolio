@@ -11,7 +11,11 @@ html {
 }
 
 .current {
-  border-bottom: .3rem solid #C1272D;
+  border-bottom: .3rem solid #9d9d9d;
+}
+
+.not-current {
+  border-bottom: .3rem solid #ffffff;
 }
 
 .carousel {
@@ -33,16 +37,29 @@ html {
   padding-bottom: 7rem;
 }
 
-nav a {
+.case-study-nav .links a {
   text-decoration: none;
-  color: #9d9d9d;
+  color: #f2f2f2;
+  border-bottom: .3rem solid #212121;
   transition: all linear 200ms;
 }
 
-nav a:hover {
-  color: #f2f2f2;
-  background-color: #C1272D;
-  border: none;
+.case-study-nav .links a:hover {
+  border-bottom: .3rem solid #C1272D;
+}
+
+nav .links a {
+  text-decoration: none;
+  color: #212121;
+  transition: all linear 200ms;
+}
+
+nav .links a:hover {
+  border-bottom: .3rem solid #C1272D;
+}
+
+h2 {
+  letter-spacing: 1rem;
 }
 
 .title {
@@ -110,23 +127,27 @@ footer small {
 }
 
 .btn-left svg {
-  fill: #C1272D;
+  fill: #9d9d9d;
   transition: all linear 250ms;
 }
 
 .btn-right svg {
-  fill: #C1272D;
+  fill: #9d9d9d;
   transition: all linear 250ms;
 }
 
 .btn-left:hover svg {
-  fill: #9d9d9d;
+  fill: #C1272D;
   cursor: pointer;
 }
 
 .btn-right:hover svg {
-  fill: #9d9d9d;
+  fill: #C1272D;
   cursor: pointer;
+}
+
+.links {
+  padding: 1.3rem;
 }
 
 @media only screen and (min-width: 38em) {
@@ -157,6 +178,10 @@ footer small {
     top: 50%;
     transform: translateY(-50%);
 }
+
+  .links {
+    padding: 0 0 1.3rem 0;
+  }
 
 @media only screen and (min-width: 60em) {
 
