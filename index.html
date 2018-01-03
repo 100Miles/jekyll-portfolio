@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+<ul class"skip-links">
+  <li><a href="#home"></a></li>
+  <li><a href="#about"></a></li>
+</ul>
+
+
 <section id="home" class="landing">
   <nav class="grid grid-bottom">
     <div class="links unit xs-1-3 text-left pad-b-1-2">
@@ -15,25 +21,25 @@ layout: default
   </nav>
   <div class="grid carousel-wrap">
     <section class="carousel unit xs-1 text-center relative w3-content w3-display-container gutter">
-      <a href="case-study.html" class="bitter-north mySlides">
+      <a href="case-study.html" class="bitter-north mySlides slide1">
         <h2 class="title absolute nina block">BITTER NORTH</h2>
         <img class="img-flex thumbnail absolute" src="{{site.baseurl}}/images/thumbnail-1.png" alt="">
       </a>
-      <a href="world-of-maps.html" class="world-of-maps mySlides">
+      <a href="world-of-maps.html" class="world-of-maps mySlides slide2">
         <h2 class="title absolute nina block">WORLD OF MAPS</h2>
         <img class="img-flex thumbnail absolute" src="{{site.baseurl}}/images/wom-thumbnail.png" alt="">
       </a>
-      <a href="green-book.html" class="world-of-maps mySlides">
+      <a href="green-book.html" class="green-book mySlides slide3">
         <h2 class="title absolute nina block">GREEN BOOK</h2>
         <img class="img-flex thumbnail absolute" src="{{site.baseurl}}/images/gb-thumbnail.png" alt="">
       </a>
-      <a href="bike-dash.html" class="world-of-maps mySlides">
+      <a href="bike-dash.html" class="bike-dash mySlides slide4">
         <h2 class="title absolute nina block">BIKE DASH</h2>
         <img class="img-flex thumbnail absolute" src="{{site.baseurl}}/images/bd-thumbnail.png" alt="">
       </a>
     </section>
   </div>
-    <div class="carousel-controls center pad-t">
+    <div id="ddown" class="carousel-controls center pad-t">
       <i class="icon i-64 btn-left left" onclick="plusDivs(-1)">
         <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#arrow-left" /></svg>
       </i>
@@ -41,6 +47,32 @@ layout: default
         <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#arrow-right" /></svg>
       </i>
     </div>
+  <noscript>
+    <div class="grid noscript-cards">
+      <div class="unit xs-1 m-1-3 pad-t island-1-2 text-center">
+        <a href="world-of-maps.html" class="island block">
+          <h2 class="mega">WORLD OF MAPS</h2>
+          <img class="img-flex" src="{{site.baseurl}}/images/wom-thumbnail.png" alt="">
+        </a>
+      </div>
+      <div class="unit xs-1 m-1-3 pad-t island-1-2 text-center">
+        <a href="green-book.html" class="island block">
+          <h2 class="mega">GREEN BOOK</h2>
+          <img class="img-flex" src="{{site.baseurl}}/images/gb-thumbnail.png" alt="">
+        </a>
+      </div>
+      <div class="unit xs-1 m-1-3 pad-t island-1-2 text-center">
+        <a href="bike-dash.html" class="island block">
+          <h2 class="mega">BIKE DASH</h2>
+          <img class="img-flex" src="{{site.baseurl}}/images/bd-thumbnail.png" alt="">
+        </a>
+      </div>
+      <div class="unit xs-1 island-1-2 noscript-about">
+        <h2 class="giga bold push-0">ABOUT</h2>
+        <p class="milli">I'm inspired by seeing things I've never seen before—and love creating things even more.<br>Solving problems is my drive.</p>
+      </div>
+    </div>
+  </noscript>
 </section>
 <section id="about" class="about">
   <div class="grid">
