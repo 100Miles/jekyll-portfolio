@@ -178,6 +178,18 @@ footer small {
   color: #212121;
 }
 
+.btn-ghost {
+  border-color: #C1272D;
+  transition: all linear 250ms;
+}
+
+.btn-ghost:hover {
+  border-color: #C1272D;
+  background-color: #C1272D;
+  color: #f2f2f2;
+}
+
+
 @media only screen and (min-width: 38em) {
 
   .landing .grid {
