@@ -84,6 +84,15 @@ nav .links a:hover {
   padding-bottom: 7rem;
 }
 
+.noscript-about h2 {
+  letter-spacing: 1rem;
+}
+
+.noscript-about p {
+  border-left: .5rem solid #C1272D;
+  padding-left: .75rem;
+}
+
 .about h2 {
   letter-spacing: 1rem;
 }
@@ -189,6 +198,15 @@ footer small {
   color: #f2f2f2;
 }
 
+footer a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.portfolio-section p {
+  font-style: italic;
+  color: #9d9d9d;
+}
 
 @media only screen and (min-width: 38em) {
 

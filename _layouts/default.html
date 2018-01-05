@@ -10,16 +10,35 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <script src="https://use.typekit.net/zuw0yjl.js"></script>
   <link rel="stylesheet" href="https://use.typekit.net/zuw0yjl.css">
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/images/favicon.png" />
   <noscript>
     <style>
         #ddown {display:none;}
         #about {display:none;}
+        #footer {display:none;}
     </style>
   </noscript>
 </head>
 <body>
 
 {{content}}
-
+  <footer class="grid" id="footer">
+    <div class="unit xs-1 text-center pad-t">
+      <img class="logo" src="{{site.baseurl}}/images/logo2.svg" alt="">
+    </div>
+    <div class="unit xs-1 text-center pad-b">
+      <small>©Kelly Miles 2017</small>
+    </div>
+    <div class="unit xs-1 text-center pad-b">
+      <div class="block">
+        <a href="https://www.behance.net/kellymiles">
+          <i class="icon i-32 push-r-1-4"><svg><use xlink:href="{{site.baseurl}}/images/icons.svg#behance" /></svg></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kelly-miles-6b429292">
+          <i class="icon i-32 push-r-1-4"><svg><use xlink:href="{{site.baseurl}}/images/icons.svg#linkedin" /></svg></i>
+        </a>
+      </div>
+  </div>
+  </footer>
 </body>
 </html>
