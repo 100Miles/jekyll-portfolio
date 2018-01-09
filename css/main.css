@@ -68,6 +68,7 @@ nav .links a:hover {
   left: 50%;
   top: 50%;
   transform: translateX(-44%) translateY(-130%);
+  transition: all linear 250ms;
 }
 
 .carousel-wrap .thumbnail {
@@ -221,6 +222,15 @@ footer a {
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     z-index: 2;
+    transition: all linear 250ms;
+  }
+
+  .carousel-wrap a:hover .thumbnail {
+    transform: translateX(-50%) translateY(-40%);
+  }
+
+  .carousel-wrap a:hover .title {
+    transform: translateX(-44%) translateY(-140%);
   }
 
   .header-img {
@@ -252,6 +262,11 @@ footer a {
     left: 50%;
     top: 50%;
     transform: translateX(-47.5%) translateY(-164%);
+    transition: all linear 250ms;
+  }
+
+  .carousel-wrap a:hover .title {
+    transform: translateX(-47.5%) translateY(-174%);
   }
 
 }
