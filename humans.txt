@@ -1,0 +1,10 @@
+/* TEAM */
+
+Designer & Developer: Kelly Miles
+Site: http://kellymiles.Design
+Github: https://github.com/100miles
+Location: Ottawa, Canada
+
+/* SITE */
+
+Software: Atom, Git & Github, Cloudflare
