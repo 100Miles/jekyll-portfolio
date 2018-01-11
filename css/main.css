@@ -107,13 +107,14 @@ nav .links a:hover {
   color: #212121;
 }
 
-.about-content p:nth-child(2) {
+.about-content div:nth-child(2) {
   border-left: .5rem solid #C1272D;
-  padding-left: .75rem;
-  margin-top: .75rem;
-  margin-bottom: .75rem;
-  max-width: 30rem;
-  margin: auto;
+  padding-left: .5rem;
+  max-width: 24rem;
+}
+
+.portrait {
+  width: 10rem;
 }
 
 header {

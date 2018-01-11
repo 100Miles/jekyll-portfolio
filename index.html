@@ -2,8 +2,8 @@
 layout: default
 ---
 <ul class"skip-links">
-  <li><a href="#home"></a></li>
-  <li><a href="#about"></a></li>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
 </ul>
 
 
@@ -67,14 +67,25 @@ layout: default
           <img class="img-flex" src="images/bd-thumbnail.png" alt="Bikedash app mockup on smartphone">
         </a>
       </div>
-      <div class="unit xs-1 island-1-2 noscript-about pad-b-2 push-1-2 gutter-2">
-        <h2 class="tenamega bold pad-t-2">ABOUT</h2>
-        <p class="milli">I'm inspired by seeing things I've never seen before—and love creating things even more.<br>I'm driven by solving problems.</p>
+      <div class="unit xs-1 about-content relative">
+        <div class="absolute pin-c max-length text-center">
+          <div class=" text-left gutter-1-2 ">
+            <h2 class="tenamega bold">ABOUT</h2>
+          </div>
+          <div class="ib gutter-1-2 text-left">
+            <h3 class="push-1-2">Kelly Miles</h3>
+            <p class="milli push-1-2">I used to be a guitarist in a metal band but now I do something my parents can tell their friends about.<br>I'm a graphic designer in Ottawa, Canada, specializing in print and web design with a focus on typography.</p>
+            <p class="milli push-0">kelly@kellymiles.design</p>
+          </div>
+          <div class="portrait ib pad-t gutter-1-2 text-center">
+            <img class="img-flex" src="images/portrait.png" alt="Kelly Miles portrait">
+          </div>
+        </div>
       </div>
     </div>
     <footer class="grid">
       <div class="unit xs-1 text-center pad-t">
-        <img class="logo" src="images/logo2.svg" alt="Kelly Miles Design logo in white">
+        <img class="logo" src="images/logo2.svg" alt="Kelly Miles Design">
       </div>
       <div class="unit xs-1 text-center pad-b">
         <small>© Kelly Miles 2017</small>
@@ -94,12 +105,19 @@ layout: default
 </section>
 <section id="about" class="about">
   <div class="grid">
-    <div class="unit xs-1 about-content gutter-1-2 relative">
-      <div class="absolute pin-c">
-        <h2 class="tenamega bold text-left">ABOUT</h2>
-        <h3 class="push-1-2">Kelly Miles</h3>
-        <p class="milli">I used to be a guitarist in a metal band but now I do something my parents can tell their friends about.<br>I'm a graphic designer in Ottawa, Canada.<br>I specialize in print and web design with a focus on typography.</p>
-        <p>kelly@kellymiles.design</p>
+    <div class="unit xs-1 about-content relative">
+      <div class="absolute pin-c max-length text-center" itemscope itemtype="https://schema.org/Person">
+        <div class=" text-left gutter-1-2 ">
+          <h2 class="tenamega bold">ABOUT</h2>
+        </div>
+        <div class="ib gutter-1-2 text-left">
+          <h3 itemprop="name" class="push-1-2">Kelly Miles</h3>
+          <p class="milli push-1-2">I used to be a guitarist in a metal band but now I do something my parents can tell their friends about.<br>I'm a graphic designer in Ottawa, Canada, specializing in print and web design with a focus on typography.</p>
+          <p itemprop="email" class="milli push-0">kelly@kellymiles.design</p>
+        </div>
+        <div class="portrait ib pad-t gutter-1-2 text-center">
+          <img itemprop="image" class="img-flex" src="images/portrait.png" alt="Kelly Miles portrait">
+        </div>
       </div>
     </div>
   </div>
