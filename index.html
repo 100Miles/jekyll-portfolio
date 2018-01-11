@@ -1,14 +1,9 @@
 ---
 layout: default
 ---
-<ul class"skip-links">
-  <li><a href="#home">Home</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-
 
 <section id="home" class="landing">
-  <nav class="grid grid-bottom">
+  <nav id="nav" class="grid grid-bottom">
     <div class="links unit xs-1-3 text-left pad-b-1-2">
       <a href="#" class="kilo current ib">Portfolio</a>
     </div>
@@ -39,14 +34,14 @@ layout: default
       </a>
     </section>
   </div>
-    <div id="ddown" class="carousel-controls center pad-t">
-      <i class="icon i-64 btn-left left" onclick="plusDivs(-1)">
-        <svg><use xlink:href="images/icons.svg#arrow-left" /></svg>
-      </i>
-      <i class="icon i-64 btn-right right" onclick="plusDivs(1)">
-        <svg><use xlink:href="images/icons.svg#arrow-right" /></svg>
-      </i>
-    </div>
+  <div id="ddown" class="carousel-controls center pad-t">
+    <i class="icon i-64 btn-left left" onclick="plusDivs(-1)">
+      <svg><use xlink:href="images/icons.svg#arrow-left" /></svg>
+    </i>
+    <i class="icon i-64 btn-right right" onclick="plusDivs(1)">
+      <svg><use xlink:href="images/icons.svg#arrow-right" /></svg>
+    </i>
+  </div>
   <noscript>
     <div class="grid noscript-cards">
       <div class="unit xs-1 m-1-3 pad-t island-1-2 text-center">
@@ -68,17 +63,17 @@ layout: default
         </a>
       </div>
       <div class="unit xs-1 about-content relative">
-        <div class="absolute pin-c max-length text-center">
+        <div class="absolute pin-c max-length text-center" itemscope itemtype="https://schema.org/Person">
           <div class=" text-left gutter-1-2 ">
             <h2 class="tenamega bold">ABOUT</h2>
           </div>
           <div class="ib gutter-1-2 text-left">
-            <h3 class="push-1-2">Kelly Miles</h3>
+            <h3 itemprop="name" class="push-1-2">Kelly Miles</h3>
             <p class="milli push-1-2">I used to be a guitarist in a metal band but now I do something my parents can tell their friends about.<br>I'm a graphic designer in Ottawa, Canada, specializing in print and web design with a focus on typography.</p>
-            <p class="milli push-0">kelly@kellymiles.design</p>
+            <p itemprop="email" class="milli push-0">kelly@kellymiles.design</p>
           </div>
           <div class="portrait ib pad-t gutter-1-2 text-center">
-            <img class="img-flex" src="images/portrait.png" alt="Kelly Miles portrait">
+            <img itemprop="image" class="img-flex" src="images/portrait.png" alt="Kelly Miles portrait">
           </div>
         </div>
       </div>
